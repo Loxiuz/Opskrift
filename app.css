@@ -3,26 +3,40 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+  background-color: grey;
+}
+
 section {
   line-height: 1.8;
 }
 
-#beskrivelse {
+#description {
   width: 500px;
-  float: left;
-  padding: 150px;
+  float: right;
+  position: relative;
+  right: 200px;
+  top: 50px;
 }
 
-#ingredienser {
+#ingredients {
   text-align: left;
-  padding: 100px;
+  padding: 50px;
   background-color: grey;
+  border-style: solid;
+  width: 200px;
+  position: relative;
+  left: 100px;
 }
 
-#fremgangsmaade {
+#method {
   width: 500px;
-  padding: 100px;
+  position: relative;
+  left: 500px;
+  bottom: 400px;
   background-color: grey;
+  padding: 50px;
+  border-style: solid;
 }
 
 h1 {
@@ -30,6 +44,6 @@ h1 {
 }
 
 img {
-  float: right;
-  padding: 30px;
+  position: relative;
+  left: 100px;
 }
