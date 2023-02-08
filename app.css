@@ -3,11 +3,33 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section {
+  line-height: 1.8;
+}
+
+#beskrivelse {
+  width: 500px;
+  float: left;
+  padding: 150px;
+}
+
+#ingredienser {
+  text-align: left;
+  padding: 100px;
+  background-color: grey;
+}
+
+#fremgangsmaade {
+  width: 500px;
+  padding: 100px;
+  background-color: grey;
+}
+
 h1 {
   text-align: center;
 }
 
 img {
-  float: left;
+  float: right;
   padding: 30px;
 }
